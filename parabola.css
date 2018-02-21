@@ -1,0 +1,54 @@
+/*
+  body {
+    text-align: center;
+}
+*/
+
+#fig1 {
+    border: solid black 1px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.axis path {
+    fill: none;
+    stroke: black;
+}
+
+.axis line {
+    fill: none;
+    stroke: gray;
+}
+
+.axis {
+    font-size: 8pt;
+    font-family: sans-serif;
+}
+
+circle {
+    stroke:black;
+    stroke-width:0.5px;
+    fill:RoyalBlue;
+    opacity:0.6;
+}
+
+
+#container {
+    text-align: center;
+}
+
+#plot-panel {
+    display: inline-block; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*
+#control-panel {
+    display: inline-block;
+    border: solid 1pt;
+    border-radius: 5pt;
+}
+*/
+

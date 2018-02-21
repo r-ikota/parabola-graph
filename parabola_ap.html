@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />    
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link type="text/css" rel="stylesheet" href="jquery.mobile-1.2.0/jquery.mobile-1.2.0.min.css" />
+    <link type="text/css" rel="stylesheet" href="parabola.css" />
+    <script type="text/javascript" src="jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="d3.v2.min.js"></script>    
+    <script type="text/javascript" src="jquery.mobile-1.2.0/jquery.mobile-1.2.0.js"></script>
+    <script type="text/javascript" src="draw_parabola.js"></script>
+</head>
+<body>
+  <div data-role="page">
+    <div data-role="header">
+      <h1>y = a (x - p)<sup>2</sup></h1>
+    </div>
+    <div data-role="content" id=container>
+      <div id="plot-panel">
+        <script>redraw=draw();</script>
+      </div>
+      <div data-role="fieldcontain" id="control-panel"> 
+        <div class="param">
+          <label>a=</label>          
+          <input id="slider-a" type="range" name="slider-a" min="-2.0" max="2.0" value="1.0" step="0.1" />
+        </div>
+        <div class="param">
+          <label>p=</label>          
+          <input id="slider-p" type="range" name="slider-p" min="-3.0" max="3.0" value="0.0" step="0.1" />
+        </div>
+      </div>
+      <div>
+      <a href="#" data-role="button" data-inline="true" onClick="history.back(); return false;">本文に戻る</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
