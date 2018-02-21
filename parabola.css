@@ -1,4 +1,15 @@
 /*
+* Copyright 2018 Ryo IKOTA
+* https://orcid.org/0000-0002-3024-831X 
+*
+* 
+* Released under the MIT license.
+* 
+*
+*/
+
+
+/*
   body {
     text-align: center;
 }
@@ -42,6 +53,10 @@ circle {
     display: inline-block; 
     margin-left: auto;
     margin-right: auto;
+}
+
+.footer-docs {
+    text-align: center;
 }
 
 /*

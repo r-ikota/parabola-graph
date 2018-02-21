@@ -1,3 +1,15 @@
+/*
+* Copyright 2018 Ryo IKOTA
+* https://orcid.org/0000-0002-3024-831X 
+*
+* 
+* Released under the MIT license.
+* 
+* Depends on jquery, jquery mobile and d3js.
+*
+*/
+
+
 var cwidth = 80;
 var a = 1.0, p = 0.0, q = 0.0;
 var params = {
